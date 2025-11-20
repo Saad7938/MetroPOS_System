@@ -34,7 +34,7 @@ Metro POS System provides billing, inventory and product management, cashier wor
 - Language: Java (JDK 17)
 - GUI: Java Swing
 - Build: Maven
-- Database: MySQL (generic instructions)
+- Database: MySQL 
 - Architecture: MVC-style
 
 ## Prerequisites
@@ -53,7 +53,7 @@ Metro POS System provides billing, inventory and product management, cashier wor
     - URL: jdbc:mysql://localhost:3306/metropos
     - USERNAME: root
     - PASSWORD: root
-  - Edit this file to point to your MySQL instance and credentials before running the application.
+  
 - Views: src/main/java/org/example/view/
   - SplashScreen, LoginView, and role-specific dashboards (DataEntryDashboard, BranchManagerDashboard, etc.)
 - Controllers & Services: src/main/java/org/example/controller/, src/main/java/org/example/service/
